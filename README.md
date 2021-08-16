@@ -14,12 +14,12 @@
  
  Go to the project folder in Command Prompt or any other shell
  
- Then type:
+ To basically build the game do:
  ```
  yarn && yarn build
  ```
  
- Then when that is done you need to build it for the os you are on:
+ To specifically choose which os you want to build it on:
  ```
  # For Windows:
  yarn build -w
