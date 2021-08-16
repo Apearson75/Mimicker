@@ -1,0 +1,25 @@
+{
+  "name": "mimicker_32by_32shahid",
+  "main": "main.js",
+  "productName": "Mimicker by Shahid",
+  "description": "Mimicker by Shahid",
+  "author": "Shahidhusain Momin",
+  "version": "1.0.0",
+  "dependencies": {
+    
+  },
+  "scripts": {
+    "start": "electron main.js",
+    "build": "electron-builder"
+  },
+  "devDependencies": {
+    "electron": "8.2.5",
+    "electron-builder": "22.9.1"
+  },
+  "build": {
+    "appId": "com.ShahidGames.Mimicker",
+    "directories": {
+      "buildResources": "buildResources"
+    }
+  }
+}

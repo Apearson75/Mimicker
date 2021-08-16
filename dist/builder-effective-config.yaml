@@ -1,0 +1,5 @@
+directories:
+  output: dist
+  buildResources: buildResources
+appId: com.ShahidGames.Mimicker
+electronVersion: 8.2.5
